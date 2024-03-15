@@ -1,3 +1,11 @@
+/* amogus cursor css */
+
 * {
-    cursor: url(amogus.png), auto;
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAlCAYAAAAjt+tHAAABW0lEQVRYw+1YPU7DMBT+npUlCA5QOrBU6tyNqRfo2CtxCu7A2AtwAeZKWUAKEwNSkTqaqeA49st7thOElE+yFDmyv+/9+PklAGCZcYVfWOE4Oc+DIAD2tFp1Jm+axn0P6WYMRxSVP8GR290OAPB1PA6yOvtYToTRkkvxvFzCCx8vQEousV4jwpS2XCvCcMnik2usl4oIJYcq4/0TdMHL+dyb27Ztj9fkkHvh62BT19yyn7pRhd7ePb2LyF/3t8hFUMDD/QIA8Nh03fj28anafFPXwVBccmLbtr0QTI6gB3zLJxegdXVxASWSSwqjubk0dSDLAzn1P9cDk2MWMAuYBVR/Qeo0JmkCYk1ISmUsHgJOnFfyCQBVmQSU087leoCGLrJQN5Qk4Hq9/n/HUGL9aAKk5KMJcM95MQFj5UFUAB0OKWecYl6IeYWYT6fkvx4D60m6kU0k59b31n4DhiKGk72J4LMAAAAASUVORK5CYII=), auto;
 }
+
+/* without this, the cursor will only show up over text */
+html {
+    height: 100%;
+}
+
